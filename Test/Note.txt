@@ -1,0 +1,562 @@
+praneethas2022@outlook.com
+
+
+Brute force attacks n tools?
+Brute force variations, utilities 1. brute force 2. Rainbow attack which is better one?
+Explore what is ACT?
+------------------------------
+128-1064.18     
+256-1171
+
+
+33414-west palm beach
+07030-jersey
+
+M- 1211 99K 
+
+denver 80014
+
+
+burger
+dino
+puppy brown
+share bear purple
+-------------------------------
+
+---------------------------------------------------------------------
+https://scrmcfg.sandboxiot.hillrom.com/apps/remotemanagement/index.html#/
+
+scrmcfg.sandboxiot.hillrom.com
+
+pen_test@user.com
+
+Test@123
+--------------------------------------------------------------------
+To do:
+1.Github access
+2.Admin permissions
+3.Tools installation
+
+-------------------------------------------------------------------------
+has been changed by a new one www.attacker-site.com since old one
+
+------------------------------------------
+
+
+add two new bugs --> information disclosure leads to account take over
+                 --> weak encytption of credentials
+
+change the graph to 2D
+
+7 2.1 No Account Lockout Policy  high
+8 2.2 Insecure Direct Object References (IDOR)  high
+10 2.3 Insufficient Session Management medium
+12 2.4 Weak Password Policy medium
+14 2.5 Cookies Manipulation low
+15 2.6 Use of Application dangerous HTTP methods on login page  low
+16 2.7 Lack of rate limit leads to DOS Attack low
+17 2.8 No Content Security Policy low
+18 2.9 Weak Encryption of Credentials  low
+20 2.10 Information Exposure leads to account compromise  low
+21 2.11 No Multifactor Authentication (MFA) info
+22
+
+2 high
+2 medium
+6 low
+1 info
+---------------------------------------------------------
+-Using SSO
+-Using AD directory
+-No PII, only device data
+-Allows users to upload & download the file (functionality of the webapp)
+-User doesnt know whats there in the file (data)
+1. no acc lockout policy- not a high risk
+
+
+words from puspita--lockout policy has been set for 2hrs.
+
+--------------------------------------------------------------------------------
+
+3/1/23
+------
+
+https://owasp.org/www-project-mobile-top-10/
+
+
+
+how to run it on the system
+how to extract the source code files
+
+
+
+--------------------------------------------------------
+
+1. Application can be installed on a vulnerable android version
+2. Clear text traffic is enabled for application
+3. Application data can be backed up
+4. Insertion of sensitive information into log file
+5. Incorrect default permissions
+6.
+
+----------------------------------------------------------------
+.cer, pem these 2 things supported by mobile
+pem mainly deals with vpn n wifi stuff.
+.der for browser
+
+---------------------------------------------------------------
+Hillrom wifi pwd: 1627384950
+---------------------------------------------------------------
+
+msfvenom --> https://www.youtube.com/watch?v=NgPxoCpNbJU&list=PL0-xwzAwzllxVzV7fwHhTrqGjqjCM92K-
+
+-----------------------------------------------------------------------------------------------------
+
+iOS pentesting
+
+https://blog.yeswehack.com/yeswerhackers/getting-started-ios-penetration-testing-part-1/
+
+---------------------------------------------------------------------------------------------------
+
+Mobile App Testing DIVA.apk
+	--------------
+-> apktool
+	apktool d DivaApplication.apk 
+		d->disassembling the application into readable format
+-> adb 
+Go to c drive and search for platform-tools (C:\Users\40018075\AppData\Local\Android\Sdk\platform-tools) & run cmd prompt.
+	>adb devices
+	>adb shell
+	>cd /data/data
+	>ls
+
+Need command prompt administrator access.
+Required this access to execute adb command while testing mobile applications.
+
+
+
+
+
+
+https://devhints.io/adb
+https://portswigger.net/web-security/all-labs
+
+
+-------------------------------------------------------------------------------------
+
+sky blue 534 552
+black 898    934 
+grey 584     604
+blue 629     651
+flats 716    727
+
+3371
+----------------------------------------------------------------------------------
+MEMO:
+
+The Grafana URL : Grafana (hsdp.io)  
+https://mas-edi-grafana-client-test.eu-west.monitoring.hsdp.io/login
+username: ServiceUser1
+Password: #welcome123
+34.253.79.211
+
+
+https://philipsinformatics-alertsink-dev.eu1.phsdp.com/api/StickyNote
+https://philipsinformatics-alertsink-dev.eu1.phsdp.com/api/StickyNote
+
+https://dev.apps.api.it.philips.com/test/solutionsit/memo-event-mgmt/event
+https://philipsinformatics-alertsink-test.eu1.phsdp.com/api/CRM/Case
+
+-----------------
+https://philips-ei.octopus.app/app#/Spaces-106/
+partner.harshal.vilasraokukade@philips.com
+asdf4321$#@!$#@!
+
+------------------ 
+
+
+doc version 1.0
+author both of us names
+doc id 
+reviewed by: Karthik
+Effective data: ex: -june-2023 (on which date we are sharing the doc)
+
+
+Sticky notes API:
+-> 3 types     
+1.Global dashboard
+2.customer dashboard
+3.Product dashboard
+
+
+nmap scan 
+2 open ports r thr
+nikto scan
+
+
+
+
+;4- scrnsht
+;12-not executed
+;19-scrnsht
+;24-scrnsht
+;37-not executed
+;38-scrnsht
+;41-n/a
+;43-scrnsht
+;51-na
+;53-not executed
+;61-not executed
+;63-na
+;64-scrnsht
+;65-not executed (64 scrnsht)
+;68-not executed
+;69-not executed
+
+
+53/70
+
+
+API Testing 	
+Broken object				Burpsuite /Postman	Pass
+Input validation 			Burpsuite /Postman	Pass
+;Injection				Burpsuite /Postman	Pass
+Broken Object Level Authorization	Burpsuite /Postman	Pass
+Broken User Authentication		Burpsuite /Postman	Pass
+Excessive Data Exposure			Burpsuite /Postman	Fail
+;Lack of Resources & Rate Limiting	Burpsuite /Postman	Fail
+Broken Function Level Authorization	Burpsuite /Postman	Pass
+Mass Assignment				Burpsuite /Postman	Pass
+Security Misconfiguration		Burpsuite /Postman	Pass
+
+
+
+
+idor, ssrf, csrf
+xss, sqli 
+
+
+
+.xml payload
+<!ENTITY % xxe SYSTEM "file:///etc/passwd"> 
+
+.sql payload
+SELECT column_name FROM information_schema.columns WHERE table_name='data_table'
+
+SELECT usename, passwd FROM pg_shadow
+
+SELECT current_database()
+
+<script>alert(1)</script>
+
+--------------------------------------------------------
+
+do 9,15
+
+
+
+
+Rate limiting
+
+While we are testing for a rate limiting we observe that after sending a 400 request to certain end points we can observe change in response. In that response
+instead of not found we got bad request, after few more request we observe getting the same response not found. so that we consider as a this api endpoint has 
+the rate limiting feature enabled.
+
+We observe that after sending a 4000 request to specific end points during our rate limiting test, we can see a change in response. Instead of not found in that 
+answer, we received bad request; after a few more requests, we noticed that we were still receiving the same not found response. so that we can assume that the 
+rate restriction feature is turned on for this api endpoint.
+
+
+Auth bypass payload:
+JyBvciAneCc9J3g6JyBvciAneCc9J3g=
+
+
+------------------------------------------------------------
+Create case
+API_TC_12 Fail?
+11: 2 poc's gave diff results
+-----------------------------------------------------------------------
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+PHILIPS
+
+Domain Name:'CODE1'
+Account ID:'320233816'
+Username for login:'partner.Praneetha.Bhaskaruni@philips.com'
+
+dsG0X1@^;e
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+Hostname:
+yy210481
+
+https://www.vas.philips.com/Citrix/VASWeb
+CODE1\320233816
+dsG0X1@^;e
+
+
+TFS
+https://tfsemea1.ta.philips.com/tfs/TPC_Region30/SCoE/_workitems/recentlycompleted/
+
+Report Generation
+https://docgen.ta.philips.com/scoe.aspx
+
+Document IDs.xlsx
+https://share-intra.philips.com/:x:/r/sites/STS20150410114500/_layouts/15/doc2.aspx?sourcedoc=%7B6811D2D1-468F-4417-B7E5-646D65217DE5%7D&file=Document%20IDs.xlsx&action=default&mobileredirect=true&cid=85d3ecf3-9045-4e06-bc27-56ae0b396516
+
+RGT++
+https://tfsemea1-rgtpp.ta.philips.com/
+
+-----------------------------------------------------------------------
+----------------------------------------------------------------------------
+5July2023
+CAD-GHS
+
+
+->Database-Amazon dymano db
+->3user roles
+1. normal/consumer user  -login with phn no.
+2. Custodian (we can assume as.. group admin who can control users-add, del, push in..various guidables of journey)-login with email address
+3. Philips admin(top most in hierarchy..approving the requests for custodian..high role-who apporoves all the things) -login with email add (which is a universal one. As of now only one admin)
+	ex: consumer can be a custodian, but admin needs to approve.Needs to provide some of the docs, admin reviews all the docs & if the docs are proper then the consumer can be a custodian & admin approves the request. 
+->prog lang-
+frontend-react
+backend-java
+
+what to test:
+1.REPORT api we need to test.
+Retest:
+2.while login enter mobile number->opt-> enter wrong otp->1 tym we are getting error msg..more than some attempts its redirecting to login page again.
+3.entering the old opt & its accepting.
+
+
+open-
+~7.4-Rate Limiting Not Implemented - closed
+~7.5-Client Side Validation Bypass - open
+~7.6-Weak SSL/TLS configuration - open
+~7.7-Improper Session Management - open
+Case 1- open
+Case 2- open
+Case 3- open
+Case 4- 
+Case 5- open
+~7.9-Sensitive Information in URL - open
+~7.11-HTTPS Fallback Allowed -  open
+~7.12-Server Banner Disclosure - open
+~7.13-Improper Error Handling - open
+~7.14-Missing Security Headers - open
+
+-----------------------------------------------------------
+SOW:
+CAD GHS is a web application which can be accessed via Mobile Web Browser.
+Scope: The scope of this assessment is to test New Feature (Report) and retest of IAM.
+User Role: Customer Login, Custodian, Admin
+
+
+
+Web: CAD GHS details: 
+
+ENV URL: https://cad-consumer-app-int.us-east.philips-healthsuite.com/
+
+“<BaseURL>/engagement/report” is the API for BEATS.
+
+Roles: Admin, Custodian, Consumer
+
+
+Please find admin and custodian details below:
+
+Admin – cadadmin@grr.la
+
+Custodian - cad-security1@grr.la - 9300000000,
+
+cad-security2@grr.la - 9310000000,
+
+cad-security3@grr.la – 9320000000
+
+
+Consumer:
+1.9123456789-Tom
+2.9123456780-Jerry
+3.9123456788-Jam
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+17/7:
+1.Previous (open) issues need to be fixed.
+2.same end point with post request not part of ui but from automation point.
+
+
+
+
+
+
+
+By replacing A's user id with B's user id, we are able to see the B's data.
+
+
+-------------------------------------------------------------------------------
+
+1.Broken Access Control
+2.HTTP Fallback Allowed - closed
+3.Usage of HTTP methods - observation
+4.Misconfigured CORS
+5.Improper session management
+6.Sensitive information in url 
+7.server banner disclosure
+
+------------------------------------------------------------------------------
+Please find the details as discussed in meetings.
+
+ 
+
+Defects need to change the status or severity
+
+Client side validation Bypass to be CLOSED
+Weak SSL/TLS Configuration to be OPEN
+Sensitive Information in URL  (authorize API) to be reduce to LOW
+HTTP Fallback to be OPEN
+ 
+
+Defects Needs to Re-test
+
+ 
+
+Broken Access Control (engagement API)
+61~Sensitive Information in URL  (engagement API)
+Mis Configured CORS
+
+
+
+
+
+
+
+1.Activity- learning, working (in detail)
+2.Remark/reference 
+3.challenge
+4.Status-done, partial done
+
+
+for recording with audio- getinto pc faststone capture
+
+-------------------------------------------------------------------------
+8/8/23
+
+MEMO Report
+
+unsigned--product exporter
+signed--prometheus
+signed--snmp
+signed--windows exporter
+signed--octopus
+
+
+
+
+
+8.1 Webservices: HTTPS Fallback Allowed
+8.2 WebApp & WebServices: Weak Input validation and Data Not Validated for Semantic Correctness
+8.3 WebServices: Verbose Error Messages
+8.4 WebServices: Authentication Bypass
+8.5 WebServices: API Supports Basic Authentication
+8.6 WebServices: CORS Misconfiguration
+8.7 DesktopApp: Lack of Binary Protections & Code Signing	
+8.8 DesktopApp: Information Disclosure
+8.9 DesktopApp: Insecure HTTP Methods Allowed
+8.10 DesktopApp: TLS Implementation Flaws
+8.11 WebApp: Weak Password Complexity Requirements
+8.12 Webapp: Improper Session Management
+8.13 Desktopapp: Improper Error Handling
+8.14 API & DesktopApp & Webapp: Lack of Input Validation
+8.15 DesktopApp: Extraneous Services Enabled
+8.16 WebServices: Information disclosure via internal API misconfiguration
+8.17 WebServices: Broken Authentication via exposed internal API key
+
+
+------------------------------------------------------------------------
+TFS portal info
+
+system info -copy&paste system URL's
+Acceptance criteria -copy&paste recommendation
+Source-Test procedure
+How found - expert testing
+safety ref id- cvss calculation
+size- cvss score
+Classification - product defect
+Project/release-
+Component - vuln category
+
+-----------------------------------------------------------------------
+
+cvi platform
+
+
+API testing
+
+Platform components, libs & binaries.
+
+2732 -web n config  8.1 & 8.3  no sow. timeline need to share
+platform cvi 2770 - api collection 
+-----------------------------------------------------------------------
+Corsium
+
+web&api
+user roles:
+postgre sql
+
+Super administrator
+
+
+section 5- test reference
+
+
+
+ECG
+1.Clinical user - can see live.
+2.notification user - can see only one incident at a time. which they got notified through mail (link).
+--------------------------------------------------------------------------------------------------------------
+MEMO Retest
+
+8.1	-API	- Open	- Base64 encoding supported. Hence issue is still open. POC attached in report.
+8.2	-API	- Open	- Octopus.app-severity can be reduced, 3rd party application support not available.
+8.3	-API	- Open	- Octopus.app-severity can be reduced, 3rd party application support not available.
+8.5	-API	- Fixed	- Allowed origin for few of the URL's.
+8.8	-Desktop- 	- Octopus Thick/memocon-severity reduced from Medium to Low, 3rd party application support not available.
+8.9	-Desktop- 	- Octopus Thick/memocon-severity reduced from Medium to Low, 3rd party application support not available:TLSv1.2 CBC cipher.
+8.11	-Webapp	- 	- Octopus.app-severity reduced from Medium to Low, 3rd party application support not available.
+8.13	-API	- Fixed	- 
+	-Webapp - 	- Octopus.app-We kept the severity of the finding as low.
+	-Desktop- 	- Octopus
+
+
+
+------------------------------------------------------------------------------
+
+
+phili3902@gmail.com
+n7=4388nPAn63|XCX9$6.Z{=2yNwpreE
+
+
+
+
+
+
+notepad: 9nVoNoTtegpAOyQ1Y0mM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

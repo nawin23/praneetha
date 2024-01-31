@@ -1,0 +1,117 @@
+Capabilities Assessment
+-----------------------
+10- Justification for giving never logoff
+20- Auditing cant be ignored. (Minimum)
+30- No comments
+40- No comments
+50- No comments
+60- Agreed. No health data is available in the hospital scope
+70- Database is only available with cloud. Not available on Tablet & Nurse station.
+90- What is Tablet alone storing the data (generated data)
+100- Purpose of USB, OTG
+150- Multiple types of hardening (BT, wifi, usb, os)
+180 & 190- Tab & Nurse station are not communicating directly. Hand-shake process b/w cloud & components. 
+
+Security controls assessment 
+----------------------------
+AC-3  Tracability - N/A
+AC-19 What is scope and functionality of mobile devices.
+AU-8  It is required for admin
+CM-6  It is refered to QMS CM policy.
+IA-1  Identification happens based on the hospital id and authentication policy is uniform across users. 
+IR-1  Need PSPM document to review the IR.
+IR-1,2,3,4,5,6  Incident handling response and others not mentioned in the PSRT.
+MA-4  Smart medic device- local... Tablet-nonlocal.
+PL-1,2,4 PSSA document (is it available).
+PM-1  Overall information security plan -> PSRT?
+PM-9 Risk management strategy of organization.
+SA-1 Do we incule in the part of PSSA (Security Policy and Procedure)
+PM-1 SI-1 SI-3 Where to find Information security plan (PII)? 
+SI-4 Azure monitoring plan? Tools list (Monitoring, incident response)?
+IR-5, SI-2(Flaw Remediation)- PSPM(Product security post market)
+SI-12 Any specific Data retention or other documents like this (SGTC)?
+
+AC-11  Session lock.This is recomended. 
+CP-7 Include-YES Assessment-YES
+SA-17  Assessment & include-YES
+SC-8   Assessment & Include-YES
+-----------------------
+Policies and procedures
+-----------------------
+AC-1 (SOM) Chapter-25?
+AT-1 (SOM)
+CM-1 (Hospital IT)
+CP-1 (SOM)
+IR-1 (SOM) 
+MA-1 (SOM) Chapter-24?
+PL-1 ?
+PS-1 Corporate policy (Hospital)?
+SA-1 ? (Information security plan)
+SC-1 (SRS)
+------------------------------------------
+
+--Tools (SBOM)
+--static code analysis reports, SAST, SCA
+--Document name-D0000061608, inside document number- D005010066
+--Software Development Plan : D005010020
+
+
+--Data minimization: 
+	Thor-- Only data which is required for the planning of a knee suregry is acquired. 
+  		The User needs and other specs documents (like SRS) document the accroding requirements 
+	Smart medic-- Output from the SM device should only be captured in the NS.
+		      The User needs and other specs documents (like SRS) document the accroding requirements 
+--Anonymization:
+	Thor: anonymization of private data is happening on application GUI
+  	Smart Medic: How we are doing?  
+
+
+
+
+-------------------------------------------------
+9/02/2022 --Ask to deepak
+SOM
+---
+
+150- System & application hardening (Tablet)
+160- Security guidance
+180- Transmission Confidentiality (wifi-WPD-2 PSK)
+190- Transmission Integrity
+
+AC-1 Access control policy & management
+AC-2 Account management
+AC-19 Access control for mobile devices
+AT-1 Security awareness and training policy and procedures
+AT-2 Security awareness training
+CP-2 Contingency plan
+CP-4 Contingency plan testing
+IA-1 Identification and authentication
+IR-1 Incident response
+MA-1 System maintenance
+PL, PM	D005010066 - 25.6 Training and Awareness
+	D005010066 - 25. SECURITY PROGRAM INTEGRATION
+SA-5 Information system documentation- (HDO)
+SC-12 Cryptographic key establishment and management
+SC-13 Cryptographic protection
+SI-1 System and information integrity
+
+2.7.1 Data minimization
+2.7.3 Anonymization
+
+- Application security testing and security code review (Tablet, SM device, Web app)
+- System amd application hardening 
+	Thor: Information/guidance provided 
+	SM: It is provided as Q&A 
+
+
+
+
+
+
+
+
+
+
+
+
+

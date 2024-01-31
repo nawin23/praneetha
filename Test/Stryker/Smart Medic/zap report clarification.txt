@@ -1,0 +1,21 @@
+1. Review the source code of this page. ->  js/2.ff013f43.chunk.js HTTP/1.1
+
+2. Confirm the Implementation of custom error pages?
+	-Syntax of error msgs thrown from this page & use cases
+	-Any sensitive information included i.e., like the location of the file
+	-How the error info msgs are handled? Is it saved in a file or displayed to the user
+
+3. Logging the details on the server side and not exposing them to the user.
+	-Is there any mapping of error msgs to identifiers & display identifiers?
+
+
+4. All the webpages of your app should have HTTP headers with Content-Security-Policy and X-Frame-Options & also Frame Ancestors
+	-Have you set any of these?
+
+5. How the pages are getting framed. From the pages on your webserver its part of a FRAMESET (SAMEORIGIN or DENY)
+6. What is the web server we are using (Apache, Nginx or something else)
+
+
+
+
+

@@ -1,0 +1,80 @@
+- SOM should not be written as per the device components.
+- It should be written as per the controls mentioned in PSSA & PSRT .
+- For ex: 16 System and Application Hardening - We need to put this 
+  as per the security controls & explain how each component is handlling 
+  the control (device, tablet, nurse station application)
+- With above said process tracing can be easily achieved.
+16.2 User Account Management (PAUT-2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14) 
+(For: Device, tablet, Nurse station application)
+-> Who are the users of the system 
+-> What are the kind of access they are having
+-> Configuration options for them
+-> Knowledge about login/authentication
+-> Incident response- Training, testing, handling, monitoring & reporting etc...
+25. SECURITY PROGRAM INTEGRATION
+25.2 Incident Response
+27. Contingency Plan Testing, Maintenance and Training
+
+SA-13 Trustworthiness- CIA triad & thier responsibilities
+ 	- What Confidentiality items HDO has to take care 
+ 	- What Integrity items HDO has to take care
+ 	- How to maintain Availability 
+
+---------------------------------------------------------------------------------
+8/3/22 -SOM comments
+4.->How SMD gets firmware upgrade/service engineer roles for SMD?
+
+-------------------------------------------------------------------------------
+PSSA-SOM mapping:
+
+SI-3 Malicious code protection
+SI-4 information system monitoring
+SI-12 Information handling and retention
+
+Check list
+-----------
+*  04 User Account Management	5
+*  05 Access control policy and management	6
+*  06 Security awareness training	6
+*  06 Incident Management, Response, Training, Testing, Handling, Monitoring & Reporting	7
+*  07 Contingency Plan: Testing, Maintenance and Training	8
+*  08 Trustworthiness- CIA Triad & Their Responsibilities	10
+*  09 System Maintenance	11
+*  10 Transmission confidentiality and integrity	12
+*  11 Cryptographic Protection & Management	13
+*  12 Security Alerts, Advisories, and Directives	14
+*  13 Flaw remediation & Vulnerability Management	15
+*  14 Cyber Security Product Upgrades	16
+*  15 Security Program Integration	17
+  16 Secure Decommissioning	17
+*  17 Automatic Log-Off	18
+*  18 Malware Detection/Protection	19
+*  19 Roadmap for Third Party Components in Device Life Cycle	20
+*  20 Health Data Storage Confidentiality	20
+*  21 System and Application Hardening	21
+*  22 Physical Locks	22
+  23 Connectivity Capabilities	23
+---------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+1. Difference to be consider between Windows & Linux
+	-Windows patches provided regurlarly, whereas for linux 
+	-os updates for vulnerabilities-quick, 
+	-patches for vulnerabilities
+2. User management:
+	-user creation, deletion, role change 
+
+
+
+--------------------------------------------------------------------------------------------
+Queries:
+
+1. How Intra-op is running. Is it a stand-alone app(Kiosk)/installed app?
+2. Is intra-op running system connected to intranet (Hospital LAN)/internet?
+3. How user authentication is happenning, using any PIN/user ID?
+4. List of users of knee intra-op using the system?
+5. Any tools (such as EM box) for processing navigation information, calibration data used/present in the knee intr-op?
+6. Any navigation cameras being connected to provide input data to the knee intr-op?
+
+T04--Is the app having connection to the cloud?
+     Apps receivs Input data-from knee planning, Any stored data used to process input within knee intr-op?
+T05--Any PHI data being stored by the knee intra-op?
+T06--Chances of physically steal/modification of harddisk/ h/w resourses?
+T10--List of configuration settings in the app?
+T15--Any BT/Wifi/wireless communication from intra-op to other devices?
+T18--Cryptographic operations happening inside the knee intra-op?
+	Cryptographic information(SSH keys etc...) stored in the system?
+
+

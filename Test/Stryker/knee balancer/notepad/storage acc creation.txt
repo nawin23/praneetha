@@ -1,0 +1,9 @@
+-network access:
+	Disable public access and use private access
+-Encryption:
+ 1.Encryption type: Microsoft-managed keys(MMK)
+ 2.Encryption support for customer-managed keys: Blobs and files only?
+
+-Advanced
+ 1.Diasble blob public access
+ 2.Disable storage account key access

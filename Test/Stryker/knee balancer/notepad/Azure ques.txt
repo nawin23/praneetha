@@ -1,0 +1,8 @@
+1. What are subscriptions we have?
+2. Type of subscription?
+3. List of services under the subscription?
+4. Secure score is not comming
+5. Settings-> security option is not showing for some resources (ASP-KneeBalanceer-ac9a, kneebalancer-dev(MySQL))
+6. Defender is not enabled
+
+

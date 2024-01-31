@@ -1,0 +1,108 @@
+1. 3rd party lib list
+-----------------------------------------
+To Do
+1. Trust boundaries establishment
+2. Info/data flow
+3. Command/control flow 
+
+
+-----------------------------------------
+1. AAA(Autn, Autz, Access Control)
+2.
+----------------------------------------
+Device deviated from the normal functionality (jailbroken) 
+
+
+------------------------------------------------------------
+1.1 Justification for all the used (own/3rd party) components
+1.2 E-E security controls (endpoints)
+1.3 Secured architecture (data, command flows)
+1.4 Sensitive data identification
+1.5 Business/security functions of all components
+1.6 E-E Threat model
+1.7 No localized security cotrols
+1.8 Crypto key & management
+1.9 Secure app updates
+1.10 Secure SDLC
+1.11 Timely info disclosure
+1.12 Privacy
+---------------------------------------
+2.1 Sensitive info storage (in system)
+2.2 No sensitive info storage (out of system)
+2.3 No sensitive info (in logs)
+2.4 No sensitive info sharing (3rd parties)
+2.5 Sensitive data thru keyboard (caching)
+2.6 No sensitive data is exposed (via IPC mechanism)
+2.7 No sensitive data is exposed (thru user interface)
+2.8 No sensitive data included (restoring OS backup points)
+2.9 Sensitive data removal (app moved to background)
+2.10 No sensitive data (not longer in memory & after use)
+2.11 Minimum device-access-security policy (device passcode)
+2.12 PII details & security guide for user
+2.13 No local storage of sensitive data (on demand access)
+2.14 Local storage of sensitive data (using hardware key support)
+2.15 Data wipe out (after failed authn attempts)
+---------------------------------------------------------
+3.1 No symmettric cryptography
+3.2 Strong cryptographic primitives
+3.3 Crypto primitives (as per use-case)
+3.4 No outdated crypto primitives
+3.5 No same key for crypto purposes
+3.6 Strong RNG's
+-------------------------------------------
+4.1 Secure access to endpoint (cloud)
+4.2 Stateful session management
+4.3 Stateless token-based authn
+4.4 Session termination with logout
+4.5 Password policy (endpoint)
+4.6 Limited no.of authn
+4.7 Session termination (after time period)
+4.8 Biometric authn
+4.9 Multi factor authn
+4.10 Step-up authn (while using inside the app)
+4.11 Multiple devices & sensitive info
+4.12 Authorization (endpoint)
+-------------------------------------------------
+5.1 Data transfer (secure TLS)
+5.2 Stronger TLS settings
+5.3 Secure channel creation with certificates
+5.4 Prefered own CA store
+5.5 Insecure communication channel
+5.6 Up-to-date security libraries
+-----------------------------------------------
+6.1 Minimun requested permissions (necessary)
+6.2 Input validation
+6.3 No export of sensitive info
+6.4 Exposure thru IPC
+6.5 Javascript (webviews)
+6.6 Configuration of webviews
+6.7 Constrained webview rendering
+6.8 Object deserialization (Safe serialization API)
+6.9 Screen overlay attacks (android only)
+6.10 Proper destroying of webview
+6.11 No sensitive data inputs (using 3rd party apps)
+-----------------------------------------------------
+7.1 App is signed & provisioned (private key)
+7.2 Non-debuggable app releases
+7.3 Removed debugging symbols
+7.4(1) Removed debugging/developer assistance code 
+7.4(2) No verbose errors/debugging messages
+7.5 ARCH (3rd party)
+7.6 Exceptions handelling (inside app)
+7.7 Security controls (error logic- restricted access)
+7.8 Unmanaged code (memory handelling)
+7.9 Toolchain security features (during build 4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

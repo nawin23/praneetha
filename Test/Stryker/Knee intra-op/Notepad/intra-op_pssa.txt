@@ -1,0 +1,132 @@
+precession knee
+---------------
+10-Alof-yes ->yes - 
+20.Audt-no -> yes (1.generation - application
+	    2. storage - cart)
+30.auth-yes ->No(for intra-op):only surgeons are users
+40.cnfs-yes ->No(for intra-op):no need cos auth users are within HDO
+50.csup-yes ->yes - by stryker service person
+60.didt-yes ->yes - Anonymization of patient detail is available in the Appln
+70.dtbk-yes ->no - Input from the knee planning is used & performed the surgery.
+		   No need to backup any data post-surgery. Disaster recovery cases should be included in SRS. 
+80.emrg-no  ->yes - Application will not be used in emergency situations. Emergency
+		   information is not stored on the device.
+90.igau-yes ->yes - Sensitive data has to be identified and to be mentioned in SRS. The same has to be encrypted & stored.
+100.mldp-yes->yes - Stryker is responsible for this.
+110.naut-yes->yes - (SRS item) appln receiving input data through usb/cd. has to specify the process of authenticating the same.
+120.paut-yes->yes - SOM- If regular windows authentication is being followed 
+		    SRS item- If it is seperate authentication other than the regular windows authentication
+130.plok-yes->no - s/w only product to be installed on the customers cart. Appln doesnt require the physical lock
+140.rdmp-yes->yes- S/w development plan:(Document number)
+150.sahd-yes->yes- (Document number)SOM for system hardening
+		   (Document number)Penetration Testing report reference for application hardening
+160.sgud-yes->yes- SOM (document number)
+170.stcf-no ->yes- (SRS item)
+180.txcf-yes->no- N/A, appln does not have any transmission capabilities
+190.txig-yes->no- N/A, appln does not have any transmission capabilities
+
+200.pii-yes ->yes
+210.phi-yes ->yes
+
+-------------------------------------------------------------------------------------------------------
+Document numbers
+
+1.Security operations manual (SOM)
+2.Penetration testing report
+3.Software development plan
+4.Installation manual
+5.User manual
+6.Product Security Post Market Management 
+7.Security and privacy in design controls 
+8.Privacy by design 
+
+------------------------------------------------------------------------------
+Control Assessment
+Justification:
+AC-
+-no dedicated access control functionality
+-OS based differentiation
+AU-
+-Cart resources & application both are responsible for SYK.
+
+SOM references:
+10- AC-1,2,7
+    IA-4
+20- AU-2
+50- IA-1
+60- AT-1
+80- AC-1,2
+    IA-1
+90- SI-1,3
+100-IR-1,2,4,5,6,7,8
+    SI-2,3,4
+110-AC-2,7
+    AU-2
+    CM-6
+    IA-1
+120-AC-2,7
+    AU-2
+    IA-1,2,4,5,7,8
+140-SA-5
+150-CM-6
+160-AC-1,2
+    AT-1,2,3
+    CP-2
+    IR-1,2,7,8
+    PL-1,2,4
+    PM-1,9,12,14
+    SA-5
+    SI-1,2,3,4,5,12
+
+SRS references:
+20- AU-3,8,9
+60- AU-3,9
+
+Other references:
+80- RA-5 -pentesting report
+100-RA-5 -pentesting report
+
+--------------------------------------------------
+HDO responsibilities
+
+10-  Automatic logoff
+40-  CONFIGURATION OF SECURITY FEATURES
+120- PERSON AUTHENTICATION
+AC- ACCESS CONTROL
+AT- AWARENESS & TRAINING
+AU- Audit and accountability
+CM- Configuration management 
+CP- Contingency planning 
+MA- Maintenance
+MP- Media protection
+PE- Physical and environmental protection
+SI- System and information integrity 
+--------------------------------------------------
+PSSA comments:
+
+1. In cart, Anti-malware/Anti-virus is installed by SYK/HDO?
+2. Is Anonymization of data present?
+3. 
+
+---------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

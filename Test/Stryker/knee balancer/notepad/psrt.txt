@@ -1,0 +1,11 @@
+1. Exposed SAS (token/URL/Key) to unauthorized parties
+2. Unavailbility of Blob storage
+------------------------------------------------------------
+Security risk control measures:
+
+
+
+
+
+
+ 

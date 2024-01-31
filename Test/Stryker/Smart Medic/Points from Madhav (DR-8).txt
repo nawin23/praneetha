@@ -1,0 +1,23 @@
+Tablet
+------
+Secure IOT Provisioning related configurations.
+Secure  Authentication Pins (Admin, User, Kiosk exist).
+Secure  API
+Secure  WIFI and TCP/IP Details which is stored and transfer via BLE.
+Secure Log Folder
+Secure Global Settings details which is store locally.
+Secure CRC Details
+Secure database.
+Secure locale preferences of all the apps.
+
+
+
+Apply filters on logs – keep only required logs
+Lockout process after X attempts wrong.
+
+
+Web app
+-------
+Password policy’s like, not keep general passwords like (1234, 0000, 9999)
+
+

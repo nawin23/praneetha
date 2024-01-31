@@ -1,0 +1,29 @@
+I.Nav3, 3i Cart 
+1.Removal of unused ports
+2.Software monitoring/tracing of the interface ports (when active) 
+3.Monitor modified port behaviour/functionality
+
+II.EOL OS
+1.Configured secure hardware & interfaces
+2.Support from 3rd party tools
+3.Alternative for OS security tools
+4.Identify vendor (OS dependent) tools
+5.Bios modification should not be allowed
+6.Keep the backup copy with above features
+7.Remove the unused 3rd party tools
+8.Uninstall/remove all the networking support software (ex: drivers)
+
+III.APM
+1.Strong password policy needed
+2.Restriction of FileSystem access based on the application
+3.Categorize SYK application files and log any file changes
+4.Admin restricted application installation
+5.Running scripts based on the ownership
+6.Presence of Anti-Virus with updated signatures
+7.Regular/planned interval scanning
+8.Alerts for abnormal activities
+9.Changing Registry & System settings without permission/approval 
+10.No open access to the application data (resources, logs, case data etc.,)
+11.Only needed daemons should be present
+
+ 

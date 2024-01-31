@@ -1,0 +1,160 @@
+Document numbers
+----------------
+1.Software SOUP document 
+2.Penetration testing 
+3.User manual 
+4.Product Security Post Market Management 
+5.Security and privacy in design controls 
+6.Privacy by design 
+
+
+
+sa-4
+As Nurse Station application using 3rd party libraries, the acquisition 
+has to be mentioned in the SRS
+---------------------------------------------------
+Check Include-no & Traceability-yes
+1. AC-1 Access control policy and management
+2. AC-2 Account management
+3. CM-6 Configuration settings
+4. CP-2 Contingency plan
+5. CP-3 Contingency training
+6. CP-4 Contingency plan testing
+7. IA-1 Identification and authentication policy and procedures
+8. IA-2 Identification and authentication (organizational users)
+9. IA-4 Identifier management
+10.IA-5 Authenticator management
+11.IA-7 Cryptographic module authentication
+12.IA-8 Identification and authentication (non-organizational users)
+13.IA-9 Service identification and authentication
+14.IA-10 Adaptive identification and authentication
+15.IA-11 Re-authentication
+16.IR-3 Incident response testing
+17.IR-9 Information spillage response
+18.IR-10 Integrated information security analysis team
+19.MA-3 Maintenance tools
+20.PL-7 Security concept of operations
+21.PL-8 Information security architecture
+22.SI-6 Security functionality verification
+23.SI-7 Software and information integrity
+24.SI-8 Spam protection
+25.SI-10 Information input validation
+26.SI-11 Error handling
+27.SI-15 Information output filtering
+28.SI-17 Fail-safe procedures
+
+----------------------------------------------------
+Include-No; Do we need to provide justification?
+----------------------------------------------------
+Privacy Controls Assessment:
+Include-Yes only provided.Do we need to provide justification for Incdule-No?
+------------------------------------------------------------------------------
+-in the case of SM device malfunctioning, how Contingency plan is designed? 
+Ans:addressed in Service Manual Document.
+
+-if tablet is not responding/hangup, how Contingency plan is designed?
+Ans:addressed in Service Manual Document.
+
+SI 15(Information output filtering)-if the data shown by the NS app is having a 
+difference/deviation (output validation). how to identify the same?
+Ans:Complaint Handelling Procedure (Document)
+
+
+------------------------------------------------------------------------------
+
+Unique id is provided for authentication.
+Identification based on individuals is not provided. no need of individual authentication & management.
+
+ir-9 The security capabilities of the information system is not owned by the stryker.
+ir-10 
+
+MA-3 No maintenance tools are being employed in this product.
+MA-6 It handeled as a part of Contingency plan. No need to consider here.
+MP-  Product doesnt contain any digital/non-digital media. Hence no need to consider media protection. This product doesnt use any kind of media handelling/storage devices such as diskettes, magnetic tapes, external/removable hard disk drives, flash drives, compact disks, and digital video disks, paper and microfilm.
+pl-7 
+non of the components in the product have configurable/customisable configuration settings. 
+for ex: registry settings, account, file, directory permission settings, settings for functions, ports, protocols, services, and remote connections.
+
+
+Au-2 Audit events-for example, 
+	password changes, 
+	failed logons,  
+	failed accesses related to information systems, 
+	administrative privilege usage, 
+	PIV credential usage,  
+	third-party credential usage.
+au-3 for example, time stamps, source and destination addresses, user/process identifiers, event descriptions, success/fail indications, filenames involved, and access control or flow control rules invoked.
+au-4 
+au-6  for example, auditing that results from 
+	monitoring of account usage, remote access, 
+	wireless connectivity, mobile device connection, configuration settings, system component 
+	inventory, use of maintenance tools and nonlocal maintenance, physical access, temperature and 
+	humidity, equipment delivery and removal, communications at the information system boundaries, 
+	use of mobile code, and use of VoIP.
+au-7 for example, modern data mining techniques with advanced data filters to identify anomalous behavior in audit records
+au-10  for example, creating information, sending and receiving messages, approving information (e.g., indicating concurrence or signing a contract)
+au-11 
+au-12
+au-13
+au-14
+au-15
+au-16
+au-17
+
+
+
+SI-6 System is not owned by Stryker.info sharing by systems to admins is not in Stryker scope.
+Si-7 System is not owned by Stryker.unauthorized system (s/w,f/w) changes is not in Stryker scope.
+si-8 System is not owned by SYK. Protection from spam is not in SYk scope.
+si-10 System is not owned by SYK. Improper input to prevent attacks is not in SYK scope.
+si-11 System is not owned by SYK. identify and handling of error conditions as per the HDOs policies.
+si-17 Fail-safe procudures as per HDOs policies.
+sc-7 - check once
+SC-8 yes
+sc-17 System is not owned by Stryker. certificates with visibility external to organizational 
+      information systems and certificates related to the internal operations of systems are not in scope
+sc-25 System is not owned by Stryker. Thin nodes and diskless nodes are not in scope.
+sc-26 System is not owned by Stryker. Usage of honeypot depends on HDOs policies.
+sc-28 System is not owned by Stryker. sensitive data at rest is not present in the system. additional protection tools/equipments can be included in HDOs policies if required. 
+sc-29 Syk doesnt own a grp of systems to follow diversified practices.
+sc-30 System is not owned by Stryker. Concealment and misdirection depends on the HDOs policies.
+*sc-31 System is not owned by Stryker. They are localized to hospital n/w and not connected to external n/w. 
+sc-34 There is no data storage present in the complete platform.
+sc-35 System is not owned by Stryker. Honeyclients not required in this enviroment.
+sc-37 IOT device provisioning is established, no out-of-band channels.
+sc-40 Wifi-AP is HDOs scope.
+sc-41 Tablet is enclosed, no port & I/O devices physical access.
+sc-42 Tablet is enclosed and access to the tablet is only provided to the admin. 
+ 
+sc-43 Tablet is enclosed and maintenance access to the tablet is only provided for admin. 
+sc-44 System is not owned by Stryker. Chambers can be provided as per HDOs policies.
+SA-12 System is not owned by Stryker. Procurement and safeguarding as per HDOs policies. 
+sa-14 System is not in scope and criticality analysis as a part of supply chain risk management as per HDOs policies.
+sa-15 Stryker devices follow secure SDLC process. System & wireless-AP as per HDOs policies. 
+sa-16 All kinds of manuals provided for HDO to understand the system.
+sa-17 All in-house and no external development.
+sa-18 Tablet is enclosed, no scope of tampering. System is in HDOs scope and tamper resistance & detection as per HDO policies.
+sa-21 This product is not national/economic security interest.
+----------------------------------------------------------------------------------------
+18-04-2022
+Changed by vinod:
+-Penetration testing report D001020114->Penetration testing manual D001020037
+120-All the details related to Software SOUP document (D001020106) are documented in Software Architecture document (D001020031, D001020032 ).
+  ->All the details related to Software SOUP document SOUP Admin D001020054; SOUP Tablet D001020055; SOUP Nurse station application D001020056.
+123-SOUP (D001020106), IFU(D001020115) and Security Operations Manual (D001020115) are user documents which enable the HDO to supplement their information system documentation 
+  ->SOUP Admin D001020054; SOUP Tablet D001020055; SOUP Nurse station application D001020056, IFU 001-02-L-13-00-00 and Security Operations Manual (D001020115) are user documents which enable the HDO to supplement their information system documentation 
+
+
+sensitive data
+weak encry algos
+insuff key lnths
+physical lock
+deploying
+
+3.Requirements-Test Cases
+
+vinod 
+deepak madhav
+
+
+

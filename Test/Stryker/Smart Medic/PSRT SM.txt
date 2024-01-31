@@ -1,0 +1,199 @@
+39-T03-V12-A02, C-NONE, I-NONE, A-LOW
+1)  Obtain knowledge about system internals
+2)  Attempt to find attack vectors 
+3)  Possibilities for exploitation of publicly known Vulnerabilities.
+
+1. Tablet can be accessed only with admin credentials (it has enclosure also)
+2. Gaining access for tablet device can only be possible by knowing admin (Stryker) credentials.
+3. Access can only be obtained by the combination of above said methods.
+4. Data unavailability to the cloud if tablet stops working.
+
+40-T03-V12-A-11, C-NONE, I-LOW, A-HIGH (Here we are considering integrity as NONE, bcos data is not getting modified in the cloud)
+43-T03-V01-A-11, C-NONE, I-LOW, A-HIGH
+46-T03-V03-A-11, C-NONE, I-LOW, A-HIGH
+1. Admin application can be accessed by login credentials & MFA. Hence, strong password 
+   policies & management are required
+2. Data transfer between the admin application and the smart medic components can be analysed 
+   to gain access if unprotected.
+3. Any vulnerable network ports and connection points should be identified and hardened.
+4. If the adversary got the access to admin application then the web app gets unavailable & the 
+   database gets affected.
+
+41-T03-V12-A01, C-NONE, I-LOW, A-NONE
+1. Tablet runs on Kiosk mode and it is difficult to access tablet resouces 
+2. As it is enclosed, gaining access through tablet resources is complex
+3. It should be allowed to connect (using wifi, BT) only with authenticated devices
+4. Network interfaces should be secured, else it impacts the tablet functionality
+
+47-T03,V03,A12, C-NONE, I-LOW, A-HIGH
+1. Cloud portal app can be accessed by login credentials & MFA. Hence, strong password 
+   policies & management are required
+2. Data transfer between the cloud portal app and the smart medic components can be analysed 
+   to gain access if unprotected.
+3. Any vulnerable network ports and connection points should be identified and hardened.
+4. If the adversary got the access to cloud portal app then the cloud gets unavailable & the 
+   database gets affected.
+
+MAINTAINING ACCESS
+54- T04-V01-A11, C-NONE, I-LOW, A-HIGH, PR-HIGH
+1. Admin application can be accessed by login credentials & MFA. Hence, strong password 
+   policies & management are required
+2. Data transfer between the admin application and the smart medic components can be analysed 
+   to gain access if unprotected.
+3. Any vulnerable network ports and connection points should be identified and hardened.
+4. If the adversary got the access to admin application then the web app gets unavailable & the 
+   database gets affected.
+
+55- T04-V01-A12, C-NONE, I-LOW, A-HIGH, PR-HIGH
+1. Cloud portal app can be accessed by login credentials & MFA. Hence, strong password 
+   policies & management are required
+2. Data transfer between the cloud portal app and the smart medic components can be analysed 
+   to gain access if unprotected.
+3. Any vulnerable network ports and connection points should be identified and hardened.
+4. If the adversary got the access to cloud portal app then the cloud gets unavailable & the 
+   database gets affected.
+
+62- T04-V15-A12, C-NONE, I-LOW, A-HIGH, PR-HIGH
+1. Cloud portal app can be accessed by login credentials & MFA. Hence, strong password 
+   policies & management are required
+2. Data transfer between the cloud portal app and the smart medic components can be analysed 
+   to gain access if unprotected.
+3. Any vulnerable network ports and connection points should be identified and hardened.
+4. If the adversary got the access to cloud portal app then the cloud gets unavailable & the 
+   database gets affected.
+
+Clearing Track
+69- T05-V08-A01; C-NONE, I-LOW, A-LOW; PR-HIGH
+
+Elevation of privilege
+75- T06-V15-A12; C-NONE, I-LOW, A-HIGH; PR-HIGH
+
+DOS
+76- T07-V12-A08;  C-NONE, I-NONE, A-HIGH
+77- T07-V12-A02;  C-NONE, I-NONE, A-HIGH
+
+INFORMATION DISCLOSURE
+78,80,82- T08-V16-A09;  (C-LOW, I-LOW, A-LOW;  PR-HIGH (FOR ALL INFO DISCLOSURE-DATA AT REST))
+84-                C-LOW, I-LOW, A-LOW;  PR-HIGH
+79,81,83,85,86     C-LOW, I-NONE, A-LOW; PR-LOW - (FOR ALL DATA IN TRANSIT)
+
+DATA ACCESS
+C-LOW, I-LOW, A-LOW;  PR-HIGH (FOR ALL INFO DISCLOSURE-DATA AT REST)
+C-LOW, I-NONE, A-LOW; PR-LOW - (FOR ALL DATA IN TRANSIT)
+87- C-NONE, I-NONE, A-HIGH; PR-HIGH
+88- C-NONE, I-NONE, A-HIGH; PR-HIGH
+89- C-NONE, I-LOW, A-LOW; PR-HIGH
+91- C-HIGH, I-NONE, A-NONE; PR-HIGH
+94- C-NONE, I-LOW, A-LOW; PR-HIGH
+95- C-NONE, I-LOW, A-LOW; PR-HIGH
+*96- C-NONE, I-NONE, A-LOW; PR-HIGH
+
+OPEN NETWORK PORT EXPLOIT
+97,98- C-NONE, I-NONE, A-LOW; PR-LOW
+99,100- C-NONE, I-NONE, A-LOW; PR-LOW
+101- C-NONE, I-LOW, A-LOW; PR-LOW
+102- C-NONE, I-NONE, A-LOW; PR-LOW
+103-
+
+BRUTE FORCE ATTACK
+104,105,106- C-LOW, I-NONE A-LOW; PR-HIGH
+107,108- C-LOW, I-NONE A-LOW; PR-HIGH
+112,113- C-LOW, I-NONE, A-LOW; PR-HIGH
+
+//
+1. Nurse Station Application is used for viewing data
+2. Application won't allow advesary to change any data
+3. Application access can be obtained only with hospital (unique) id
+4. Anonymized (non-sensitive) data can only be viewed 
+//
+
+/ ALL Threat event- change high -> moderate/
+
+---------------------------------------------------------------------------------
+When some data is received to SM device how it reacts?
+How weight & position data is maintained in the cloud? And transfered to the NS
+-Responsibilities of Azure web application
+-Responsibilities of Azure portal 
+
+16,17-T01-How Unencrypted data in transit in all flowchannels (Vln) is mapped 
+	  to Deliver undirected malware (Threat)
+
+109-T11-Is there authentication provided for azure cloud database access?
+
+110,111,118,119,120-T11,T12- Is multiple authentication modes available? [for Smart medic app (Stryker
+			     Azure Cloud Web Application) & Smart medic web app (Azure portal)]
+----------------------------------------------------------------------------------------------------
+
+1.All devices which need to be registered & gets communicated in iot hub needs to be identified
+2.Proper provisioning needs to be established with secure data transfer during provisioning
+3.End-to-end provisioning with iot hub needs to be carried out without getting failed
+4.All failure cases during the provisioning need to be documented/addressed
+
+1.In complete SM environment, only authenticated stryker devices need to be present
+2.Secure communication between the stry devices needs to be established & documented
+3.Handling of the unauthenticated 3rd party devices trying to communicate 
+with stryker devices needs to be taken care
+
+
+
+
+Anti-virus with updated virus definitions
+Audit log capturing any abnormal activity
+
+
+v17- Use secure tunnel communication channel
+• Maintain access control list.
+/• Use strong encrption algorithm/
+"• Server-side encryption using Service-Managed keys
+• Network access control
+• Encryption for sensitive data in transit, such as when
+  files are attached to an email message or moved to cloud storage, removable drives
+•  Transfer over encrypted tunnel"
+-If data is sensitive then proper encryption mechanism needs to be 
+designed & implemented
+
+v18-
+"• Server-side encryption using Service-Managed keys
+• Network access control
+• Encryption for sensitive data in transit, such as when
+  files are attached to an email message or moved to cloud storage, removable drives
+•  Transfer over encrypted tunnel"
+
+
+-Using weak algorithms such as DES, 3DES, RC2, RC4, etc... should be avoided
+-
+
+--"SOM responsibility
+1. Disable the device network discoverable
+2. Maintain Access Control List.
+3. Block all unrequired ports
+4. Statefull firewall"
+--"SOM responsibility
+• Eliminating rogue access points
+• Properly configuring all authorized access points
+• Firewall
+• Limit Network Access"
+--"SOM responsibility
+• Firewall
+• Secure communication links with protocols that provide message confidentiality."
+
+--3RD PARTIES/unauthenticated (Restrict communication)
+--access from system
+
+restrict the system getting connected to unauthenticated sources
+enable strong firewall
+restrict the system in accessing the 3rd party sites,social engineering sites, mail
+--------------------------------------------------------------------------------------
+18-3-22
+For madhav->Standard error info....miss matched
+
+SRS D001020023 - NS apln
+SRS D001020024 - Tablet
+SRS D001020097 - Admin web app
+-------------------------------------------------------
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+Application Management
+----------------------
+1. How we are restricting the 3rd party applications instalation from appstore
+2. Any preferred security applications (malware) running in the ipad/istore
+
+Communication with the trusted sources
+--------------------------------------
+3. Restriction of wifi to hospital network
+4. Securing the wireless transferring channels (BT)
+
+Logging
+-------
+5 Through wireless channel 

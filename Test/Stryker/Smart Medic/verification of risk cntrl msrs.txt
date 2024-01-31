@@ -1,0 +1,116 @@
+4. Use hardened interfaces (n/w) & secure tunnel communications channel 
+ -Ensure your firewall is properly configured and that all rules are regularly audited; 
+ -secure remote access points and users; 
+ -block any unused or unneeded open network ports; 
+ -disable and remove unnecessary protocols and services; 
+ -implement access lists; 
+ -encrypt network traffic.
+
+Secure tunnel Communication channel
+ -The communication between the devices being used should be encrypted. In this case, if an unauthorized person obtains a document, he/she will not be able to read it
+ -Corporate networks can be segmented into multiple VLANs to separate different resources. An office building with multiple departments should can have separate VLANs 
+  for each department. In fact, logical network designs can tie into physical aspects of the building as necessary.
+ -The communication should be encrypted using TLS, SSL or IPSec.
+
+
+
+
+
+Target 1: Is system capable of blocking the malware
+Target 2: Scanning & detecting the vulnerabilities using tools
+Target 3: Exploit the loopholes using kali tools
+
+-what type of malware & its exploitation?
+-Firewall strength & its config rules?
+-Anti-virus with updated signatures & validation?
+-How hardeded interfaces are verified?
+-Is there any trusted device option?
+
+Stage 1: Initial setup
+Stage 2: Execution
+Stage 3: Expected output
+
+----------------------------------------------------------------
+Installation manual & Service manual
+1.Admin web app
+-Anti-virus with updated virus definitions?
+-Deployed (V&V) secure system configuration model needs to be mentioned in the installation manual
+-Default creds should not exist. If exist, change the creds during access providing
+-89
+2.Interface/API communication
+-During the access providing, if default password is provided then immediately changing the password is needed. 
+-90	1.Spam filters settings
+	2,3,4?
+3.Azure portal administrator
+-id:46,60,84,86,91,92,93,95
+	1.Authentication flow diagram (secure communication)
+	2.Limit on logon attempts(no.)
+	3.Error msgs info
+	4.Multifactor authentication
+	5.Block the access to a machine(either remotely/locally)for administrator-level accounts
+	6.Default creds should not exist. If exist, change the creds during access providing
+	7.Limit authentication attempts
+	8.Audit/system log?
+	9.Strong password policies(ex:Combination of CAPS letter, number, spl char...)
+
+4.Authentication/Authorisation method of all device(s)/app
+-During the access providing, if default password is provided then immediately changing the password is needed. 
+-Ensure default credentials not existing for any assets (such as applications, operating systems, routers, firewalls, wireless access points).
+
+5.Data at Rest
+-During the access providing, if default password is provided then immediately changing the password is needed. 
+
+6.Data in Transit
+-During the access providing, if default password is provided then immediately changing the password is needed. 
+
+7.Azure cloud Database
+-94,96,97,98
+	1.Limit on login attempts
+	
+
+
+Devices & Docs:
+----------------
+1.Tablet-Installation & Service manual
+2.Admin web app-Installation & Service manual
+3.Smart medic device-Installation & Service manual
+
+Vinod:
+-Need Instruction/User manual(Tablet/SM device/Admin web app)
+-Is there any Instruction manual?
+-How many instruction manual are there?
+-Instruction manual and its list?
+-----------------------------------------------------------------------
+id:89 changed-> Availability-low
+
+Web app:
+-
+-Risk associated with the web app is Not affecting the product directly
+-Hence the risk is not higher
+
+Azure portal:
+-map to IT admin doc
+-Configuration will be done by IT admin
+-Verification is required
+
+DMT
+not existing in the product. so verification not required.
+
+-Have to be closed before DR8
+
+//Azure portal verification
+The published configuration document shall be verified for ensuring all the measures properly implemented
+//
+
+Have to be closed before DR-8
+
+Using web app the admin can able to view the functionality of different components existing in the SM platform. Admin app doesnt control any of the system components. Hence the risk associated to the SM platform with admin web app can be ignored.
+
+row:79
+Device maintanence tool
+
+
+
+
+
+

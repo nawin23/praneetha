@@ -1,0 +1,10 @@
+Pameter Tampering-
+https://qualitrix.com/blog/testing-web-applications-for-security-vulnerabilities/
+
+Server version Disclose- (Refrence)
+https://www.acunetix.com/blog/articles/configure-web-server-disclose-identity/
+https://www.thesmartscanner.com/vulnerability-list/server-version-disclosure
+
+Source code Not Obfuscated- 
+https://www.guardsquare.com/ixguard
+https://www.appsealing.com/code-obfuscation/

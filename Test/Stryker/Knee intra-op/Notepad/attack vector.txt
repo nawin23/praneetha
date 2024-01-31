@@ -1,0 +1,5 @@
+Length, format 
+Application failed to restore data after any abnormal activity.
+Virus definitions:1.  if there is no internet connectivity how anti-virus signatures are getting updated?
+	2. remote desktop needs to be avoided/taken care.
+3. if there is no remote desktop access, how services are updated?

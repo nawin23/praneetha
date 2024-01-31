@@ -1,0 +1,7 @@
+Id.5,12,14 1.SOUP items validation/cross check
+Id.6 2.Application resources path exploration
+Id.13 3.Stryker IP data path exploration
+Id.20 4.App download
+
+1.Id 15(PSRT)->	PY-KBN-14
+		Jailbreak Detection Missing

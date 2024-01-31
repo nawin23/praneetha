@@ -1,0 +1,22 @@
+EOL OS, outdated tools/components, no patches/updates from vendor,
+automatic updation of virus definitions, firewall rules  not 
+available
+
+Threat event for:
+V81. Authentication bypass.
+V82. Complete file system access.
+V83. All kinds of applications/scripts running.
+V84. Unidentified virus existence.
+V85. All time system settings modification (during running & bootup).   
+V86. Deletion of critical/sensitive data.
+V87. Illegal OS services access.
+V88. Injection of latest malware/virus.
+V89. Deliver direct/undirect malware.
+V90. Unvalidated external connected devices.
+----------------------------------------------------------
+
+
+
+
+
+

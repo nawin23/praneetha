@@ -1,0 +1,51 @@
+***** Current design challenges*****
+
+1. Shared key authorization 
+2. How Key & SAS is working
+3. SAS configuration (expiry)
+4. How you share the SAS?
+5. What if SAS compromises 
+6. How to retain the compromised url
+-------------------------------------------------------------
+********New design challenges**********
+
+1. How to regenerate the keys?
+2. Is azure vault is independent of storage account?
+3. What happens if key gets compromised
+4. what is the time period of key (key shouldnt have indefinite tym period)
+----
+5.   
+
+
+
+
+
+
+
+Azure Key Vault protects cryptographic keys, certificates 
+(and the private keys associated with the certificates), 
+and secrets (such as connection strings and passwords) in 
+the cloud.
+
+When you create a key vault in an Azure subscription, it's 
+automatically associated with the Azure AD tenant of the 
+subscription.
+
+
+
+az keyvault storage add --vault-name $keyvault -n $storage --active-key-name key1 --auto-regenerate-key --regeneration-period P90D --resource-id $storageid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

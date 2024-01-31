@@ -1,0 +1,8 @@
+1. putting critical information in a plist file
+2.Plist files should always be used for saving information that is 
+not confidential as they are unencrypted and can be easily be fetched 
+even from a non-jailbroken device.
+3.big companies have been found to store condifential data like Access 
+tokens, Usernames and passwords in plist files
+4.Plist files are structured text files that are used for storing various 
+settings and configuration for a particular app.

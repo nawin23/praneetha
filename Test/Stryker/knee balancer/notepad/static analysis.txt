@@ -1,0 +1,14 @@
+Static code analysis findings:
+
+Buffer overflows
+SQL injection
+Cross-site scripting
+
+A variable with an undefined value
+Inconsistent interface between modules and components
+Variables that are declared but never used
+Unreachable code (or) Dead Code
+Programming standards violations
+Security vulnerabilities
+Syntax violations
+

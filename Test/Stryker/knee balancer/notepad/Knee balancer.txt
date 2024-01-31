@@ -1,0 +1,5 @@
+1. Is the app having connection to the cloud
+2. Chances of physically steal
+3. App updates
+4. Wifi/BT connectivity
+5. 

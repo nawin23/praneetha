@@ -1,0 +1,14 @@
+                              Azure API's
+                             --------------
+  
+  1.https://login.microsoftonline.com/4e9dbbfb-394a-4583-8810-53f81f819e3b/oauth2/token   (Authenticate API)
+  
+  2.https://management.azure.com/subscriptions/5487a063-1d3b-4ad3-8583-01948e8fa375/resourceGroups/Knee-Balancer/providers/Microsoft.Storage/storageAccounts/strykerkneebalancer/regenerateKey?api-version=2021-09-01  (Access key Regenerate API)
+  
+  
+  For below 3 and 4 Api's AZS Client Libraray will take care of SAS creating and Uploading the blobs.
+  ---------------------------------------------------------------------------------------------
+  
+  3.https://strykerkneebalancer.blob.core.windows.net/kneebalancer  (creating SAS token API)
+  
+  4.https://strykerkneebalancer.blob.core.windows.net/kneebalancer/blobname (Upload API)

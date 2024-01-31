@@ -1,0 +1,26 @@
+Doesnt have any database functionality (to store health info) and also no long term primary storage, removable media, removable storage
+AC-2 Account management
+AC-6 Least Privilege
+AC-14 Permitted actions without identification or authentication
+AC-17 Remote access
+
+Security testing, training & monitoring is also not going to be a continuous activity
+---------------------------------------------------------------------------------------------
+11-7-22: Review comments
+
+1. AC-8  System lock notification- Assessment changed to "NO".
+2. AC-11 Session lock- Assessment changed to "YES".
+3. AC-17 Remote access- Assessment changed to "YES". 
+4. AC-18 Wireless access- Assessment changed to "YES".
+5. AC-19 Access control for mobile devices- Assessment changed to "NO".
+6. AU-10 Non-repudiation- Assessment changed to "YES".
+7. CA-7 Continuous monitoring- Assessment changed to "YES".
+
+
+
+
+
+
+
+
+

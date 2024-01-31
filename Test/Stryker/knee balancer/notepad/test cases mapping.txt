@@ -1,0 +1,26 @@
+Test case in PSRT doc		Testcases in Report		Missing Test cases
+---------------------		-------------------		------------------
+PY-KBN-TC-40			PY-KBN-01			All PSRT test cases are missing.
+PY-KBN-TC-53			PY-KBN-02			
+PY-KBN-TC-43			PY-KBN-03			
+PY-KBN-TC-62			PY-KBN-04			
+PY-KBN-TC-49			PY-KBN-05			
+PY-KBN-TC-11			PY-KBN-06			
+PY-KBN-TC-64			PY-KBN-07			
+PY-KBN-TC-48			PY-KBN-08			
+PY-KBN-TC-60			PY-KBN-09				
+PY-KBN-TC-61			PY-KBN-10			
+PY-KBN-TC-65			PY-KBN-11			
+PY-KBN-TC-66			PY-KBN-12			
+PY-KBN-TC-59			PY-KBN-13			
+				PY-KBN-14
+				PY-KBN-15
+
+
+
+
+
+
+
+
+

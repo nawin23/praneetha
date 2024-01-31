@@ -1,0 +1,22 @@
+1. Rename classes, methods,variables, fields, annotations, and packages.
+2. Alters the way data is stored. (For example, the arrays could be broken 
+down into many sub-arrays. These individual sub-arrays could then be 
+referenced at different locations of the program)
+3. Storage obfuscation
+This changes the very manner in which data is stored in memory. (For 
+example, developers can shuffle between local to global storage of 
+variables, so that the real nature of variable behavior is obfuscated)
+4. Reorder how data is ordered by not altering the behavior of the 
+program/code snippet. 
+5. -Encrypt all readable strings. 
+   -Hide & replace the strings with a nonsensical representation of the string. 
+6. Use arbitrary strings and unexpected statements within the code and 
+add random case-switch statements (dead code).
+7. Mask the identifiable information by changing their identifiers, 
+line numbers, or stopping the access to debug information altogether.
+8.
+
+
+
+
+

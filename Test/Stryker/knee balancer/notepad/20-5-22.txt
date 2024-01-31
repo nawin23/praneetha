@@ -1,0 +1,11 @@
+1. identification of endpoint (container/blob/?)
+
+2. limiting blobs in a container
+
+3. access control to blobs/containers/?
+
+4. how Azure AD is created?
+
+5. What type of SAS is created?
+account based SAS
+6. storage acc management?

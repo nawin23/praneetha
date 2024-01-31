@@ -1,0 +1,7 @@
+1.DFD
+2.TMT (picture)
+3.build attack trees(attack vectors & surfaces)
+4.
+5.
+6.
+7.Threats/Vulns

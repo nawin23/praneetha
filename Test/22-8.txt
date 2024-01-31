@@ -1,0 +1,61 @@
+How to enable SSL pinning when static mobile application trying to communicate with azure environment? 
+-------------------------------------------------------------------------
+Risk Assessment
+---------------
+Asset Management:
+
+1.Identify & list down the assets.
+	-Identify assets (e.g., network, servers, applications, data centers, tools, etc.) within the organization.
+2.Assign each asset a value.
+	-Based on the asset assign a value.
+3.Ordering/Ranking by importance.
+	-Each asset assigned score for each critical factor (ex: impact of revenue, profitability, public image, etc.,) & each critical factor is assigned a weight.
+4.Data classification & Management
+	-Assign classification to all data and grant access to data based on classification.
+	-classify the data by access levels (ex: public, confidential, internal, external, etc.,)
+
+
+
+
+3.Map data flows among your various resources (Building data flow diagrams allows you to understand better where weak points and vulnerabilities exist in your network).
+4.As part of assigning value to your assets, you should categorize your data by access levels.
+5.Classify the assets. (critical, major, or minor)
+
+
+1.Properties
+2.Characteristics
+3.Values
+4.Effecting factors
+5.Classification
+6.Data flow
+
+
+1.Asset type/property (information/physical)
+2.Asset connectivity (none/local/network)
+3.Asset protection (physical/software)
+4.Asset service (none/local/OTA)
+5.value (critical, major, or minor)
+6.Classification (ex: public, confidential, internal, external, etc.,)
+7.impact type (ex: impact of revenue, profitability, public image, etc.,)
+8.Order/Rank 
+---------------------------------------------------------------------------
+Software Management:
+
+1.COTS
+2.SOUPs
+3.EOL
+4.Patch update & management
+5.IP
+6.Distribution protection (code signing)
+--------------------------------------------------------------------------
+Vulnerability Management:
+
+1.
+
+
+
+
+
+
+
+

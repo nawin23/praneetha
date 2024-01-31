@@ -1,0 +1,18 @@
+Test cases
+
+1.Look for abnormal HTTP headers
+API does not use cookie for authentication so the authentication also is in header. 
+2.Authentication
+Make sure each n every api is authenticated.
+3.IDOR
+Object level authorization check should be considered in every function that access data source using user input.
+4.SSRF (server side request forgery)
+API does not allow a user to mutate the server-side resources.
+5.XML Attacks
+If the api is supposed to json then try changing the content tpyr from application json to xml and see if it responds to the xml request.
+6.DOS
+7.Injection attacks
+
+
+
+

@@ -1,0 +1,26 @@
+Points:
+1.For what all purposes we are using the SYK creds inside the appln.
+2.Input source validation.
+3.Input details validation.
+4.PII & PHI details (anonymization process).
+   -When anonymization is gng to happen on the details
+   -How data is gng to store inside the app
+   -Data storage lifecycle (time period)
+   -What kind of data is retrieved for how much time.
+5.Data at Rest details (eg: algos & other data).
+   -How algos are stored.
+   -Solutions and their handling (storage, retrieval time).
+   -SYK IP: Apart from algos, is there any such data present.
+   -Is there any Crypto data such as keys, certs…
+6.Interaction with cloud & use cases.
+7.Pre-operative process & Intra-operative process
+8.Any info related to audit log
+9.How data gets visible
+   -When user browse through the file system.
+   -How data gets protected when it’s connected to laptop. 
+   -Access control permissions on the files (read/write…)
+
+
+----------------------------------------------------------------
+Has to be checked:
+1. Lib folder & its core data db file inside the lib folder
